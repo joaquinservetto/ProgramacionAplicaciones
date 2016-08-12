@@ -1,4 +1,7 @@
 
+import javax.swing.JOptionPane;
+
+
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -19,6 +22,13 @@ public class laboratorio {
          
 
         // TODO code application logic here
+    }
+
+  
+
+    void imprimirHola() {
+         JOptionPane.showMessageDialog(null, "¡Hola mundo desde laboratorio!");
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
