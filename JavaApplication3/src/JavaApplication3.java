@@ -18,6 +18,8 @@ public class JavaApplication3 {
      */
     public static void main(String[] args) {
         JOptionPane.showMessageDialog(null, "¡Hola mundo!");
+        laboratorio laboratorio = new laboratorio();
+        laboratorio.imprimirHola();
         // TODO code application logic here
     }
     
